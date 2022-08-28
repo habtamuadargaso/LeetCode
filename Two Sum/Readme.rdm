@@ -1,0 +1,27 @@
+1Q. Given an unsorted list and a number ,
+ find all the pairs of numbers in that list such that their sum equals target number
+
+
+ For example, if the list is [3, 5, 2, -4, 8, 11]
+[3,5,2,−4,8,11]
+ and the value of target number is 7
+7
+, then the program should return pairs location in give list (5,3)
+(11,−4)
+```
+class Two_sum() :
+    # let define a funcation in a give methods that sums two number and find the target number
+    def twosum(nums, target): 
+        # search other element in the array.
+        for i in range (len(nums)):
+            # search other element in the array.
+            for j in range(i+2,len(nums)):
+                # if these two element sum is equal two the target number then prints that numbers
+                if nums[i] +nums[j] == target :
+                    print("target with sum",target, "is:(", nums[i],",",nums[j],")")
+    # this is driver code
+    nums =[3,5,2,-4,8,11]         
+    target = 7
+    # Function call  inside print
+    twosum (nums,target)   
+```
