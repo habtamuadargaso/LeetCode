@@ -1,13 +1,11 @@
 1Q. Given an unsorted list and a number ,
- find all the pairs of numbers in that list such that their sum equals target number
-
-
+ find all the pairs of numbers in that list such that their sum equals target number. 
+ 
  For example, if the list is [3, 5, 2, -4, 8, 11]
-[3,5,2,−4,8,11]
- and the value of target number is 7
-, then the program should return pairs location in give list (5,3)
+[3,5,2,−4,8,11] and the value of target number is 7
+,then the program should return pairs
+location in give list (5,3)
 (11,−4)
-```
 
 
 
@@ -28,6 +26,9 @@ class Two_sum() :
     # Function call  inside print
     twosum (nums,target)   
 ```
+
+
+
 
 
 
