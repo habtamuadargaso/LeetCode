@@ -5,10 +5,13 @@
  For example, if the list is [3, 5, 2, -4, 8, 11]
 [3,5,2,−4,8,11]
  and the value of target number is 7
-7
 , then the program should return pairs location in give list (5,3)
 (11,−4)
 ```
+
+
+
+
 class Two_sum() :
     # let define a funcation in a give methods that sums two number and find the target number
     def twosum(nums, target): 
