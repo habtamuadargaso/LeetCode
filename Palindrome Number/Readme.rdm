@@ -1,0 +1,11 @@
+Problem Statement 
+
+Determin whether an integer is a palindrom. An integer is a palindrom when it read the same backward as forward.
+example 121 
+output true 
+
+example x = 10 
+output = false 
+
+example x = -101
+output : false
