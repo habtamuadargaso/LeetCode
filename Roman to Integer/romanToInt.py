@@ -19,8 +19,10 @@ class Solution:
         last = "I"
         # Reverse iteration solution 
         for numeral in s[::-1]:
+            # chek the numeral valeus in the roman table list 
             print((numeral,  roman_table[numeral]))
-            
+            # for example when the roman number  fours is IV (I = 1 and V = 5) . 
+            # This case check the condition left to right is smaller always otherwise make first number-last (V-I) to get 4 
             if roman_table[numeral] < roman_table[last]:
                 
                 total  -= roman_table[numeral]
