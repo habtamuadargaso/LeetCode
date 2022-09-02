@@ -14,6 +14,7 @@ class Palindrom_Num():
         # define the variable that holds the reverse palidrome number 
         reverse = 0 
         # while break when num = 0
+        # The recursive function to reverse
         while (num >0  or num !=0 ):
             reverse = reverse * 10 + num % 10  
             num = num // 10 
